@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>用户注册</title>
+        <script src="js/jquery-1.12.4.js"></script>
+        <link rel="stylesheet" href="css/zhuce.css">
+        <script type="text/javascript" src="js/zhuce.js"></script>
+        
+    </head>
+    <body>
+    <div class="top">
+        <div class="top1">
+            <div class="top-l">
+                <div class="jlt"></div>
+                <p>听音乐，就选我</p>
+            </div>
+            <div class="top-r">
+                <a href="#" >注册 </a>
+                <a href="#" id="dlu">登录</a>
+            </div>
+        </div>
+    </div>
+        <div class="top2">
+            <div class="banner clearfix">
+                <div class="top2-l">
+                <div class="music"><div class="icon-jlt"></div><a href="index.html"><p id="yy">music音乐网</p></a></div>
+                <div class="ges"><div class="icon-jlt1"></div><p id="gs">歌手</p></div>
+                <div class="zhuanji"><div class="icon-jlt2"></div><p id="zj">专辑</p></div>
+                <div class="phb"><div class="icon-jlt3"></div><p id="bd">榜单</p></div>
+                <div class="mv"><div class="icon-jlt4"></div><p id="mv">MV</p></div>
+                </div>
+                <div class="top2-r">
+                    <p>客服中心</p>
+                    <p>VIP中心</p>
+                    <p>音乐中心</p>
+                </div>
+            </div>
+        </div>
+    <div class="cen">
+        <div class="banner">
+            <div class="cen-top">
+                <div class="cen-top1"><span></span></div>
+                <div class="cen-top2"><span></span></div>
+                <div class="cen-top3"><span></span></div>
+            </div>
+            <div class="cen-box">
+            <div class="cen-cen">
+                <div class="box1">
+                    <div class="cen-cen1">
+                        <span>*邮箱：</span>
+                        <input type="text" class="inp1" />
+                        <span class="tip11">请输入您的常用邮箱地址</span>
+                    </div>
+                    <div class="cen-cen2">
+                        <span>*密码：</span>
+                        <input type="password" class="inp1" />
+                        <span class="tip2">密码需有6-16个字母、数字和符号组成</span>
+                    </div>
+                    <div class="cen-cen3">
+                        <p class="p1">密码强度:</p>
+                        <p class="p1">弱</p>
+                        <i></i><i></i><i></i>
+                        <p class="p1">强</p>
+                    </div>
+                    <div class="cen-cen4">
+                        <span>*确认密码：</span>
+                        <input type="password" class="inp1" />
+                        <span class="tip3">请再次输入密码</span>
+                    </div>
+                    <div class="cen-cen6">
+                        <span>*性别：</span>
+                        <input type="radio"  checked="ture" name="sex1" />男
+                        <input type="radio" name="sex1" />女
+                    </div>
+                    <div class="cen-cen7">
+                        <div class="sss">
+                        <span>*验证码：</span>
+                        <input type="text" class="inp2" />
+                        </div>
+                        <div class="yzm"></div>
+                        <a href="#" class="hyz">换一张</a>
+                    </div>
+                    <div class="cen-cen8">
+                        <input type="checkbox" checked="checked" /><span>我已经认真阅读并同意</span><a href=  "#">《music音乐网服务条款》</a>
+                    </div>
+                    <div class="cen-cen9">
+                        <input type="submit" value="注 册" />
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="cen-cen11">
+                        <span>*手机号码：</span>
+                        <input type="text" class="inp1" />
+                        <span class="tip11 tip22">请输入手机号码</span>
+                    </div>
+                    <div class="cen-cen22">
+                        <span>*短信验证：</span>
+                        <input type="text" />
+                        <input type="text" class="hqdx" value="获取短信"/>
+                    </div>
+                    <div class="cen-cen33">
+                        <span>*密码：</span>
+                        <input type="password" class="inp1" />
+                        <span class="tip2">密码需有6-16个字母、数字和符号组成</span>
+                    </div>
+                    <div class="cen-cen3">
+                        <p class="p1">密码强度:</p>
+                        <p class="p1">弱</p>
+                        <i></i><i></i><i></i>
+                        <p class="p1">强</p>
+                    </div>
+                    <div class="cen-cen4">
+                        <span>*确认密码：</span>
+                        <input type="password" class="inp1" />
+                        <span class="tip3">请再次输入密码</span>
+                    </div>
+                    <div class="cen-cen6">
+                        <span>*性别：</span>
+                        <input type="radio" checked="checked" name="sex2"/>男
+                        <input type="radio" name="sex2"/>女
+                    </div>
+                    
+                    <div class="cen-cen82">
+                        <input type="checkbox" checked="checked" /><span>我已经认真阅读并同意</span><a href=  "#">《music音乐网服务条款》</a>
+                    </div>
+                    <div class="cen-cen9">
+                        <input type="submit" value="注 册" />
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="cen-cen111">
+                        <span>*用户名：</span>
+                        <input type="text" class="inp1" id="username" />
+                        <span class="tip11 tip33">用户名需以字母开头，长度为4-12个字符组成</span>
+                    </div>
+                    <div class="cen-cen2">
+                        <span>*密码：</span>
+                        <input type="password" class="inp1" id="pass1" />
+                        <span class="tip2">密码需有6-16个字母、数字和符号组成</span>
+                    </div>
+                    <div class="cen-cen3">
+                        <p class="p1">密码强度:</p>
+                        <p class="p1">弱</p>
+                        <i class="qd1"></i><i class="qd2"></i><i class="qd3"></i>
+                        <p class="p1">强</p>
+                    </div>
+                    <div class="cen-cen4">
+                        <span>*确认密码：</span>
+                        <input type="password" class="inp1" id="pass2" />
+                        <span class="tip3">请再次输入密码</span>
+                    </div>
+                    <div class="cen-cen6">
+                        <span>*性别：</span>
+                        <input type="radio" checked="checked" name="sex"/>男
+                        <input type="radio" name="sex"/>女
+                    </div>
+                    <div class="cen-cen7">
+                        <div class="sss">
+                        <span>*验证码：</span>
+                        <input type="text" class="inp2" id="yzm" />
+                        </div>
+                        <div class="yzm"></div>
+                        <a href="#" class="hyz">换一张</a>
+                    </div>
+                    <div class="cen-cen8">
+                        <input type="checkbox" checked="checked" /><span>我已经认真阅读并同意</span><a href= "javascript:;">《music音乐网服务条款》</a>
+                    </div>
+                    <div class="cen-cen9">
+                        <input type="submit" value="注 册" id="zc" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="bottom">
+    <div class="banner">
+        <div class="bottom1">
+            <div class="bot-jlt"></div>
+            <div class="join">
+                <p class="join1">独立音乐人招募计划</p>
+                <p>加入我们 即将与超过亿万乐迷互动</p>
+            </div>
+        </div>
+        <div class="bottom2">
+            <div class="bot-jlt1"></div>
+            <div class="join">
+            <p class="join1">音乐专栏招募计划</p>
+            <p>加入我们 与同道中人交流心得</p>
+            </div>
+        </div>
+        <div class="bottom3">
+            <div class="join">
+            <p class="join2">2013级-计131班-黄理根制作</p>
+            <p>联系电话：18878554172 </p><p>QQ:137647259</p>
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+</html>
